@@ -63,7 +63,7 @@ int main()
     int op = -1;
     string id;
     
-    while (op != 6){
+    while (op != 7){
      
         cout << "\n\n";
         cout << "1 - Cadastrar \n";
@@ -71,7 +71,8 @@ int main()
         cout << "3 - Listar\n";
         cout << "4 - Excluir\n";
         cout << "5 - Gravar\n";
-        cout << "6 - Sair\n\n";
+        cout << "6 - Relatorio\n";
+        cout << "7 - Sair\n\n";
         cout << "Digite uma opcao: \n";
         cout << "\n\n";           
         cin >> op;
@@ -100,6 +101,8 @@ int main()
             case 5:
                 break;
             case 6:
+                break;
+            case 7:
                 break;
             default:
                 cout << "Entre com uma opção valida!\n";
